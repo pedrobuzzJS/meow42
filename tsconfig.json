@@ -2,5 +2,27 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./apps/meow42/meow42-crm-admin-e2e"
+    },
+    {
+      "path": "./apps/meow42/meow42-crm-admin"
+    },
+    {
+      "path": "./apps/meow42crm-e2e"
+    },
+    {
+      "path": "./apps/meow42crm"
+    },
+    {
+      "path": "./apps/meow42-app"
+    },
+    {
+      "path": "./apps/meow42-flow-e2e"
+    },
+    {
+      "path": "./apps/meow42-flow"
+    }
+  ]
 }
