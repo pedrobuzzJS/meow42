@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using preponto_api.Data;
+using meow42_api.Data;
 
-namespace preponto_api.Abstracts;
+namespace meow42_api.Abstracts;
 
 public abstract class BaseService<TEntity> where TEntity : class
 {

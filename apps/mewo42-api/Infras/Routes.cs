@@ -1,6 +1,6 @@
-using preponto_api.Controllers;
+using meow42_api.Controllers;
 
-namespace preponto_api.Infras;
+namespace meow42_api.Infras;
 
 public static class Routes
 {

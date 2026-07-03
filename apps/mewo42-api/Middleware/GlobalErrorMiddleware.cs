@@ -1,6 +1,6 @@
 using System.Diagnostics;
 
-namespace preponto_api.Middleware;
+namespace meow42_api.Middleware;
 
 public class GlobalErrorMiddleware
 {

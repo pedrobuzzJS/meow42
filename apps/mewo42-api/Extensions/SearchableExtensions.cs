@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using preponto_api.Abstracts;
+using meow42_api.Abstracts;
 
-namespace preponto_api.Extensions;
+namespace meow42_api.Extensions;
 
 public static class SearchableExtensions
 {

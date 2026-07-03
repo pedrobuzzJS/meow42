@@ -1,4 +1,4 @@
-namespace preponto_api.Interfaces;
+namespace meow42_api.Interfaces;
 
 public interface ITokenManager
 {

@@ -1,7 +1,7 @@
-using preponto_api.Controllers;
-using preponto_api.Services;
+using meow42_api.Controllers;
+using meow42_api.Services;
 
-namespace preponto_api.Infras;
+namespace meow42_api.Infras;
 
 public static class ScoppedInjections
 {

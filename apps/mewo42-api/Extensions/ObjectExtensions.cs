@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace preponto_api.Extensions;
+namespace meow42_api.Extensions;
 
 public static class ObjectExtensions
 {

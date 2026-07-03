@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using preponto_api.Abstracts;
-using preponto_api.Interfaces;
-using preponto_api.Models;
+using meow42_api.Abstracts;
+using meow42_api.Interfaces;
+using meow42_api.Models;
 
-namespace preponto_api.Data;
+namespace meow42_api.Data;
 
 public class AppDbContext : DbContext
 {

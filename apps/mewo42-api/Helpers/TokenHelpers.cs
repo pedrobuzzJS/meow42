@@ -1,7 +1,7 @@
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 
-namespace preponto_api.Helpers;
+namespace meow42_api.Helpers;
 
 public abstract class TokenHelpers
 {

@@ -1,8 +1,8 @@
-using preponto_api.Abstracts;
-using preponto_api.Dtos;
-using preponto_api.Interfaces;
+using meow42_api.Abstracts;
+using meow42_api.Dtos;
+using meow42_api.Interfaces;
 
-namespace preponto_api.Controllers;
+namespace meow42_api.Controllers;
 
 public class JwtController : BaseController<LoginDto>
 {

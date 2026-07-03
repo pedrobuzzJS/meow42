@@ -1,10 +1,10 @@
 using Microsoft.EntityFrameworkCore;
-using preponto_api.Abstracts;
-using preponto_api.Data;
-using preponto_api.Dtos;
-using preponto_api.Models;
+using meow42_api.Abstracts;
+using meow42_api.Data;
+using meow42_api.Dtos;
+using meow42_api.Models;
 
-namespace preponto_api.Services;
+namespace meow42_api.Services;
 
 public class MenuService : BaseService<Menu>
 {

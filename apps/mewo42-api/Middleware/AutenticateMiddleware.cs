@@ -1,4 +1,4 @@
-namespace preponto_api.Middleware;
+namespace meow42_api.Middleware;
 
 public class AutenticateMiddleware
 {

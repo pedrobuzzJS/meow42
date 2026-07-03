@@ -1,4 +1,4 @@
-namespace preponto_api.Infras;
+namespace meow42_api.Infras;
 
 public static class TransientInjections
 {

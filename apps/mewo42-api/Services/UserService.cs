@@ -1,4 +1,4 @@
-namespace preponto_api.Services;
+namespace meow42_api.Services;
 
 public class UserService
 {

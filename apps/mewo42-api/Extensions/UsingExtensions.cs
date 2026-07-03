@@ -1,1 +1,1 @@
-global using preponto_api.Extensions; 
+global using meow42_api.Extensions; 

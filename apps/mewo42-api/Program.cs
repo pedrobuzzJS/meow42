@@ -42,13 +42,13 @@
 
 using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
-using preponto_api.Abstracts;
-using preponto_api.Controllers;
-using preponto_api.Data;
-using preponto_api.Infras;
-using preponto_api.Interfaces;
-using preponto_api.Middleware;
-using preponto_api.Services;
+using meow42_api.Abstracts;
+using meow42_api.Controllers;
+using meow42_api.Data;
+using meow42_api.Infras;
+using meow42_api.Interfaces;
+using meow42_api.Middleware;
+using meow42_api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();

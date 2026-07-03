@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace preponto_api.Enums;
+namespace meow42_api.Enums;
 
 public enum EnumUser
 {

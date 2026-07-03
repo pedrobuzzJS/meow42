@@ -1,7 +1,7 @@
-using preponto_api.Dtos;
-using preponto_api.Models;
+using meow42_api.Dtos;
+using meow42_api.Models;
 
-namespace preponto_api.Extensions;
+namespace meow42_api.Extensions;
 
 public static class MenuExtensions
 {

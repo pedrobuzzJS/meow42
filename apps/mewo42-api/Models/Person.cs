@@ -2,9 +2,9 @@ using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using preponto_api.Abstracts;
+using meow42_api.Abstracts;
 
-namespace preponto_api.Models;
+namespace meow42_api.Models;
 
 [Table("tbperson", Schema = "uni")]
 public class Person : BaseModel

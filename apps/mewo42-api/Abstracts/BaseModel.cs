@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace preponto_api.Abstracts;
+namespace meow42_api.Abstracts;
 
 public class BaseModel
 {

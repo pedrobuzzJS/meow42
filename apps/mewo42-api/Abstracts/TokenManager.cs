@@ -2,10 +2,10 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
-using preponto_api.Helpers;
-using preponto_api.Interfaces;
+using meow42_api.Helpers;
+using meow42_api.Interfaces;
 
-namespace preponto_api.Abstracts;
+namespace meow42_api.Abstracts;
 
 public class TokenManager : ITokenManager
 {

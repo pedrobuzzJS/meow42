@@ -1,8 +1,8 @@
-using preponto_api.Abstracts;
-using preponto_api.Models;
-using preponto_api.Services;
+using meow42_api.Abstracts;
+using meow42_api.Models;
+using meow42_api.Services;
 
-namespace preponto_api.Controllers;
+namespace meow42_api.Controllers;
 
 public class MenuController : BaseController<Menu>
 {

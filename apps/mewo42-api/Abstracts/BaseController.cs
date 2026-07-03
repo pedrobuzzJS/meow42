@@ -1,6 +1,6 @@
 using System.Text.Json;
 
-namespace preponto_api.Abstracts;
+namespace meow42_api.Abstracts;
 
 public abstract class BaseController<TModel>
 {

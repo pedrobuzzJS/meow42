@@ -1,4 +1,4 @@
-namespace preponto_api.Abstracts;
+namespace meow42_api.Abstracts;
 
 public class PagedResponse<T>
 {

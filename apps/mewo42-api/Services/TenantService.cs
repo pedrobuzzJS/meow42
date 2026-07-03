@@ -1,6 +1,6 @@
-using preponto_api.Interfaces;
+using meow42_api.Interfaces;
 
-namespace preponto_api.Services;
+namespace meow42_api.Services;
 
 public class TenantService : ITenantService
 {

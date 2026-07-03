@@ -1,4 +1,4 @@
-namespace preponto_api.Dtos;
+namespace meow42_api.Dtos;
 
 public class LoginDto
 {

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace preponto_api.Enums;
+namespace meow42_api.Enums;
 
 public enum EnumPerson
 {

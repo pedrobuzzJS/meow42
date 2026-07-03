@@ -1,6 +1,6 @@
-using preponto_api.Interfaces;
+using meow42_api.Interfaces;
 
-namespace preponto_api.Middleware;
+namespace meow42_api.Middleware;
 
 public class TenantMiddleware
 {
