@@ -1,0 +1,20 @@
+.tableRow {
+    td {
+        color: black;
+    }
+    &:hover {
+        background-color: #dedede !important;
+        transition: ease-in-out 50ms;
+        td {
+            color: black !important;
+        }
+    }
+}
+
+.rowSelected {
+    background-color: #5a9ba9 !important;
+    transition: ease-in-out 50ms;
+    td {
+        color: #ffffff !important;
+    }
+}

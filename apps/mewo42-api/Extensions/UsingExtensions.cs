@@ -1,0 +1,1 @@
+global using preponto_api.Extensions; 

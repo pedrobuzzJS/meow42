@@ -1,0 +1,129 @@
+.menuBarItem {
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+
+    height: auto;
+    max-height: none;
+    overflow: visible;
+
+    .menuItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 250px;
+
+        .menuIconContainer {
+            height: 100%;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .menuIcon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #252525;
+                //background-color: #1a1a1a;
+                width: 80%;
+                height: 80%;
+                border-radius: 7% 0 0 7%;
+                cursor: pointer;
+                transition: all 200ms;
+
+                i {
+                    font-size: 20px;
+                    color: #ffffff;
+                }
+            }
+        }
+
+        .menuItemDetails {
+            height: 80%;
+            width: 200px;
+            background-color: #252525;
+            //background-color: #1a1a1a;
+            display: flex;
+
+            .menuDetails {
+                display: flex;
+                width: 85%;
+                justify-content: flex-start;
+                align-items: center;
+
+                .menuText {
+                    max-width: 200px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    color: white;
+                }
+            }
+
+            .menuExpander {
+                display: flex;
+                width: 15%;
+                align-items: center;
+                justify-content: center;
+
+                i {
+                    color: white;
+                    transition: transform 0.2s ease;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        .menuItem {
+            .menuIconContainer {
+                .menuIcon {
+                    i {
+                        font-size: 23px;
+                        transition: all 200ms;
+                    }
+                }
+            }
+        }
+    }
+
+    &.open {
+        margin-left: 0;
+        .menuExpander i {
+            transform: rotate(180deg);
+        }
+    }
+
+    //SUBMENU
+
+    .submenu {
+        width: 100%;
+        //padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    /* Submenu mais compacto */
+    .submenu .menuItem {
+        //height: 42px;
+
+        .menuIcon {
+            //width: 70%;
+            //height: 70%;
+        }
+
+        .menuItemDetails {
+            //height: 75%;
+        }
+
+        .menuText {
+            //font-size: 0.9rem;
+        }
+    }
+}

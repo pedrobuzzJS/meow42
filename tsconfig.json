@@ -4,12 +4,6 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/meow42/meow42-crm-admin-e2e"
-    },
-    {
-      "path": "./apps/meow42/meow42-crm-admin"
-    },
-    {
       "path": "./apps/meow42crm-e2e"
     },
     {
@@ -23,6 +17,12 @@
     },
     {
       "path": "./apps/meow42-flow"
+    },
+    {
+      "path": "./apps/meow42-e2e"
+    },
+    {
+      "path": "./apps/meow42"
     }
   ]
 }
