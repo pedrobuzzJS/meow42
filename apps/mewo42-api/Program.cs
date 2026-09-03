@@ -66,7 +66,7 @@ builder.Services.AddScoped<JwtController>();
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     // options.UseNpgsql("Host=localhost;Port=5432;Database=rsl_v2;Username=postgres;Password=postgres;");
-    options.UseNpgsql("Host=172.26.96.1;Port=5432;Database=rsl_v2;Username=postgres;Password=postgres;");
+    options.UseNpgsql("Host=172.26.96.1;Port=5432;Database=meow42;Username=postgres;Password=postgres;");
 });
 
 builder.Services.ConfigureHttpJsonOptions(options =>

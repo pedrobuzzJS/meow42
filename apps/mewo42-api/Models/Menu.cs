@@ -5,7 +5,7 @@ using meow42_api.Abstracts;
 
 namespace meow42_api.Models;
 
-[Table("menu")]
+[Table("tbmenu", Schema = "sys")]
 public class Menu : BaseModel
 {
     [Column("id")]

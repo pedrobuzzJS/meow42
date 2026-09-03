@@ -2,7 +2,7 @@ import axios from "axios";
 import { cleanNullProperties } from "../helpers/helpers.ts";
 
 // const api = axios.create({ baseURL: process.env.REACT_APP_SERVER_URL })
-export const api = axios.create({ baseURL: "http://localhost:5089/api/v1/" });
+export const api = axios.create({ baseURL: "http://localhost:5039/api/v1/" });
 
 api.defaults.headers.common["tenant"] = "rsl-admin";
 
